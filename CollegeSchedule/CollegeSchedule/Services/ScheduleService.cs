@@ -28,12 +28,12 @@ namespace CollegeSchedule.Services
         {
             var group = await _db.StudentGroups
             .FirstOrDefaultAsync(g => g.GroupName == groupName);
+
             if (group == null)
                 throw new KeyNotFoundException($"Группа {groupName} не найдена.");
             return group;
         }
-        private async Task<List<Schedule>> LoadSchedules(int groupId, DateTime start,
-       DateTime end)
+        private async Task<List<Schedule>> LoadSchedules(int groupId, DateTime start, DateTime end)
         {
             return await _db.Schedules
             .Where(s => s.GroupId == groupId &&

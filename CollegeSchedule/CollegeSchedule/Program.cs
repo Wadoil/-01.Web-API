@@ -1,5 +1,5 @@
 using CollegeSchedule.Data;
-//using CollegeSchedule.Middlewares;
+using CollegeSchedule.Middlewares;
 using CollegeSchedule.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +12,6 @@ var connectionString = $"Host={Environment.GetEnvironmentVariable("DB_HOST")};" 
  $"Port={Environment.GetEnvironmentVariable("DB_PORT")};" +
  $"Database={Environment.GetEnvironmentVariable("DB_NAME")};" +
  $"Username={Environment.GetEnvironmentVariable("DB_USER")};" +
-
 $"Password={Environment.GetEnvironmentVariable("DB_PASSWORD")}";
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
@@ -35,7 +34,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-//app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseAuthorization();
 app.UseRouting();
 app.MapControllers();
