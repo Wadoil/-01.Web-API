@@ -12,13 +12,12 @@ namespace CollegeSchedule.Services
         {
             _db = db;
         }
-        public async Task<List<ScheduleByDateDto>> GetScheduleForGroup(string
-       groupName, DateTime startDate, DateTime endDate)
+        public async Task<List<ScheduleByDateDto>> GetScheduleForGroup(string groupName, DateTime startDate, DateTime endDate)
         {
             ValidateDates(startDate, endDate);
             var group = await GetGroupByName(groupName);
             var schedules = await LoadSchedules(group.GroupId, startDate, endDate);
-            return BuildScheduleDto(schedules);
+            return BuildScheduleDto(startDate, endDate, schedules);
         }
         private static void ValidateDates(DateTime start, DateTime end)
         {
@@ -51,7 +50,7 @@ namespace CollegeSchedule.Services
             .ThenBy(s => s.GroupPart)
             .ToListAsync();
         }
-        private static List<ScheduleByDateDto> BuildScheduleDto(DateTime startDate,DateTime endDate, List<Schedule> schedules)
+        private static List<ScheduleByDateDto> BuildScheduleDto(DateTime startDate, DateTime endDate, List<Schedule> schedules)
         {
             var scheduleByDate = GroupSchedulesByDate(schedules);
             var result = new List<ScheduleByDateDto>();

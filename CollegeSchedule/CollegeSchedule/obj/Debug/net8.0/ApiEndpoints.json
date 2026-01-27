@@ -1,23 +1,28 @@
 [
   {
-    "ContainingType": "CollegeSchedule.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "CollegeSchedule.Controllers.ScheduleController",
+    "Method": "GetSchedule",
+    "RelativePath": "api/schedule/group/{GroupName}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[CollegeSchedule.WeatherForecast, CollegeSchedule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "start",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.DateTime",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]
