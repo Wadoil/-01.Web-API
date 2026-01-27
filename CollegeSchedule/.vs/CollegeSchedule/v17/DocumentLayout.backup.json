@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\collegeschedule\\collegeschedule\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\collegeschedule\\collegeschedule\\models\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\models\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Schedule.cs",
+              "ToolTip": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Schedule.cs",
+              "RelativeToolTip": "CollegeSchedule\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T06:36:16.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Weekday.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Weekday.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Weekday.cs",
               "ToolTip": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Weekday.cs",
               "RelativeToolTip": "CollegeSchedule\\Models\\Weekday.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T06:35:28.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Subject.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Subject.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Teacher.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Teacher.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StudentGroup.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\StudentGroup.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\StudentGroup.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Speciality.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Speciality.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Speciality.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LessonTime.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\LessonTime.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\LessonTime.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LessonGroupPart.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\LessonGroupPart.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\LessonGroupPart.cs",
@@ -141,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Classroom.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Classroom.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Classroom.cs",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Building.cs",
               "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Models\\Building.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Models\\Building.cs",
