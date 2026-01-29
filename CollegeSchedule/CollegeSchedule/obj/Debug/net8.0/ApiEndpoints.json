@@ -2,7 +2,7 @@
   {
     "ContainingType": "CollegeSchedule.Controllers.ScheduleController",
     "Method": "GetSchedule",
-    "RelativePath": "api/schedule/group/{GroupName}",
+    "RelativePath": "api/schedule/group/{groupName}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

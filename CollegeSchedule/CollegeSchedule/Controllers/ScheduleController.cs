@@ -16,8 +16,11 @@ namespace CollegeSchedule.Controllers
         }
 
         // GET: api/schedule/group/{groupName}?start=start.Date&end=end.Date
-        [HttpGet("group/{GroupName}")]
-        public async Task<IActionResult> GetSchedule(string groupName, DateTime start, DateTime end)
+        [HttpGet("group/{groupName}")]
+        public async Task<IActionResult> GetSchedule(
+            [FromRoute] string groupName,
+            [FromQuery] DateTime start,
+            [FromQuery] DateTime end)
         {
             // вызываем логику из сервиса
             var result = await _service.GetScheduleForGroup(groupName, start.Date, end.Date);
