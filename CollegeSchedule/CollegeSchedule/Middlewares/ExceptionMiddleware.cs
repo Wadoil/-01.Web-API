@@ -6,8 +6,7 @@ namespace CollegeSchedule.Middlewares
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionMiddleware> _logger;
-        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware>
-       logger)
+        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger)
         {
             _next = next;
             _logger = logger;
@@ -30,7 +29,7 @@ namespace CollegeSchedule.Middlewares
             {
                 ArgumentOutOfRangeException => HttpStatusCode.BadRequest,
                 ArgumentException => HttpStatusCode.BadRequest,
-                KeyNotFoundException => HttpStatusCode.NotFound,
+                KeyNotFoundException => HttpStatusCode.NotFound, 
                 _ => HttpStatusCode.InternalServerError
             };
             var response = new

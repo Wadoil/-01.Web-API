@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "CollegeSchedule.Controllers.GroupsController",
+    "Method": "GetGroups",
+    "RelativePath": "api/groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "course",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "speciality",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CollegeSchedule.Controllers.ScheduleController",
     "Method": "GetSchedule",
     "RelativePath": "api/schedule/group/{groupName}",

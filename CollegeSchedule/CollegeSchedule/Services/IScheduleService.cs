@@ -1,4 +1,5 @@
 ﻿using CollegeSchedule.DTO;
+
 namespace CollegeSchedule.Services
 {
     public interface IScheduleService
