@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\",
+  "WorkspaceRootPath": "D:\\collage\\practice\\web api\\CollegeSchedule\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\collegeschedule\\collegeschedule\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\collage\\practice\\web api\\collegeschedule\\collegeschedule\\dto\\schedulebydatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\dto\\schedulebydatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\collegeschedule\\collegeschedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\collage\\practice\\web api\\collegeschedule\\collegeschedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\collegeschedule\\collegeschedule\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\collage\\practice\\web api\\collegeschedule\\collegeschedule\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|d:\\collage\\practice\\web api\\collegeschedule\\collegeschedule\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541729E4-41DE-4B1E-9342-03D2F4BD29A5}|CollegeSchedule\\CollegeSchedule.csproj|solutionrelative:collegeschedule\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScheduleByDateDto.cs",
+              "DocumentMoniker": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\DTO\\ScheduleByDateDto.cs",
+              "RelativeDocumentMoniker": "CollegeSchedule\\DTO\\ScheduleByDateDto.cs",
+              "ToolTip": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\DTO\\ScheduleByDateDto.cs",
+              "RelativeToolTip": "CollegeSchedule\\DTO\\ScheduleByDateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:27:50.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ScheduleController.cs",
-              "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Controllers\\ScheduleController.cs",
+              "DocumentMoniker": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Controllers\\ScheduleController.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Controllers\\ScheduleController.cs",
-              "ToolTip": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Controllers\\ScheduleController.cs",
+              "ToolTip": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Controllers\\ScheduleController.cs",
               "RelativeToolTip": "CollegeSchedule\\Controllers\\ScheduleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T07:34:09.942Z",
               "EditorCaption": ""
@@ -41,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ScheduleService.cs",
-              "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Services\\ScheduleService.cs",
+              "DocumentMoniker": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Services\\ScheduleService.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Services\\ScheduleService.cs",
-              "ToolTip": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Services\\ScheduleService.cs",
+              "ToolTip": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Services\\ScheduleService.cs",
               "RelativeToolTip": "CollegeSchedule\\Services\\ScheduleService.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwHYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T07:17:00.382Z",
               "EditorCaption": ""
@@ -54,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Program.cs",
+              "DocumentMoniker": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Program.cs",
               "RelativeDocumentMoniker": "CollegeSchedule\\Program.cs",
-              "ToolTip": "D:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u0442\u043A\u0438\u043A\u0430\\web api\\CollegeSchedule\\CollegeSchedule\\Program.cs",
+              "ToolTip": "D:\\collage\\practice\\web api\\CollegeSchedule\\CollegeSchedule\\Program.cs",
               "RelativeToolTip": "CollegeSchedule\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T06:42:51.661Z",
               "EditorCaption": ""

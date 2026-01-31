@@ -2,6 +2,7 @@
 using CollegeSchedule.DTO;
 using CollegeSchedule.Models;
 using Microsoft.EntityFrameworkCore;
+using Sprache;
 using System.Net;
 namespace CollegeSchedule.Services
 {
@@ -59,13 +60,9 @@ namespace CollegeSchedule.Services
                 if (date.DayOfWeek == DayOfWeek.Sunday)
                     continue;
                 if (!scheduleByDate.TryGetValue(date, out var daySchedules))
-                {
                     result.Add(BuildEmptyDayDto(date));
-                }
                 else
-                {
                     result.Add(BuildDayDto(daySchedules));
-                }
             }
             return result;
         }
@@ -111,7 +108,7 @@ namespace CollegeSchedule.Services
             .ToList();
             return new ScheduleByDateDto
             {
-                LessonDate = daySchedules.First().LessonDate,
+                LessonDate = DateOnly.FromDateTime(daySchedules.First().LessonDate),
                 Weekday = daySchedules.First().Weekday.Name,
                 Lessons = lessons
             };
@@ -120,7 +117,7 @@ namespace CollegeSchedule.Services
         {
             return new ScheduleByDateDto
             {
-                LessonDate = date,
+                LessonDate = DateOnly.FromDateTime(date),
                 Weekday = date.DayOfWeek.ToString(),
                 Lessons = new List<LessonDto>()
             };
